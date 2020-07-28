@@ -1,5 +1,5 @@
 [package]
-name = "FileCradle"
+name = "file_cradle"
 version = "0.1.0"
 authors = ["Ytrog <hisbrucker@gmail.com>","CaptainTux"]
 edition = "2018"
