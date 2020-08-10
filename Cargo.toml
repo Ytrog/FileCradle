@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 sha2 = "0.9.1" # https://docs.rs/sha2/0.9.1/sha2
+structopt = "^0.3.16" # commandline argument parsing
