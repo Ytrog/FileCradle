@@ -19,11 +19,19 @@ enum Action {
     List {},
 }
 
+fn dispatch(action : Action) {
+    match action {
+	Action::Add{path} => println!("Add {:?}", path),
+	_ => println!("Other"),
+    }
+}
+
 fn main() {
     // get env variables
     let args = Cli::from_args();
     // validate vars
     // determine what to do
+    dispatch(args.action);
     // implement adding file to hash list
     // implement checking files to hash list
 }
